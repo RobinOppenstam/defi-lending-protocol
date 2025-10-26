@@ -138,6 +138,23 @@ defi-lending-protocol/
 
 ---
 
+## Deployed Contracts (Sepolia Testnet)
+
+### Core Contracts
+- **Comptroller**: [`0x0b1c31213d3181fd9b9fd159288f84adb2825e97`](https://sepolia.etherscan.io/address/0x0b1c31213d3181fd9b9fd159288f84adb2825e97)
+- **Interest Rate Model**: [`0xa7bc577f2e1ff05bc79eaaed8c907a548b9d70b6`](https://sepolia.etherscan.io/address/0xa7bc577f2e1ff05bc79eaaed8c907a548b9d70b6)
+- **Price Oracle**: [`0x313ed33288c24768db927cfb7af0304149f426ff`](https://sepolia.etherscan.io/address/0x313ed33288c24768db927cfb7af0304149f426ff)
+
+### Lending Markets (lTokens)
+- **lUSDC**: [`0xbac6bf46b37490ac71f31735e9da3752c5664036`](https://sepolia.etherscan.io/address/0xbac6bf46b37490ac71f31735e9da3752c5664036)
+- **lETH**: [`0xfaf79f14f3418d61516a25ce61af4e4b737cf7b8`](https://sepolia.etherscan.io/address/0xfaf79f14f3418d61516a25ce61af4e4b737cf7b8)
+
+### Underlying Assets
+- **USDC (Sepolia)**: [`0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8`](https://sepolia.etherscan.io/address/0x94a9D9AC8a22534E3FaCa9F4e7F2E2cf85d5E4C8)
+- **WETH (Sepolia)**: [`0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14`](https://sepolia.etherscan.io/address/0xfFf9976782d46CC05630D1f6eBAb18b2324d6B14)
+
+---
+
 ## Getting Started
 
 ### Prerequisites
@@ -149,7 +166,7 @@ defi-lending-protocol/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/RobinOppenstam/defi-lending-protocol
 cd defi-lending-protocol
 
 # Install dependencies
